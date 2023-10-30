@@ -1,0 +1,26 @@
+- Membership Website/Subscriber Website 
+* duration 5 days (start day: monday, finish day: friday)
+
+- monday 
+	- create a github repo
+	- site header+ full responsiveness on all viewports
+	
+	- Plan, design database schema
+	- Read docs on express 20 mins
+-tuesday
+	- Build an authentication logic and session logic with passport and express session 
+	- Build a responsive login/signup page
+-Wednesday
+	- Build a dashboard page
+	- Read paypal documentation
+	- begin implementation
+
+- Thursday 
+	- Integrate paypal api
+	- Integrate a logic to check if a user has paid for a specific course before access
+
+- Friday
+	- Refactor codebase and call it v1.0
+	- Ship and deploy via RENDER and post online
+	- study express for 20 mins
+	
