@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -12,21 +12,25 @@
         <section class="container">
             <section class="form-container">
                 <div class="login-btn">
-                    <p>Don't have an account? <a href="/signup">Register here</a></p>
+                    <p>Have an account? <a href="/login">Login Here</a></p>
                 </div>
                 <div class="text-info">
-                    <h2>Welcome Back!</h2>
-                    <p>Let's get you back to your favorite ebooks.</p>
+                    <h2>Create Your Account</h2>
+                    <p>Get your favorite ebook and explore more to read</p>
                 </div>
                 <div class="googleauth-div">
-                    <a href="/"> <img src="/images/google.svg" alt="gmail-g-img" width="20px"> Sign in with Google</a>
+                    <a href="/"> <img src="/images/google.svg" alt="gmail-g-img" width="20px"> Get started with Google</a>
                 </div>
                 <div class="or">
                     <hr class="left line"> <p>Or</p> <hr class="right line">  
                 </div>
                 <div class="form-section">
 
-                    <form action="/login" method="post">
+                    <form action="/signup" method="post">
+                        <div class="field">
+                            <label for="Full Name">Full Name</label>
+                            <input type="text" name="fullname" id="bl" placeholder="Enter Name">
+                        </div>
                         <div class="field">
                             <label for="Email">Email</label>
                             <input type="email" name="username" id="bl" placeholder="Enter Email">
@@ -35,7 +39,11 @@
                             <label for="">Password</label>
                             <input type="password" name="password" id="bl" placeholder="Choose a strong Password">
                         </div>
-                        <button type="submit">Log In</button>
+                        <div class="tandc">
+                            <input type="checkbox" name="tandc" id="">
+                            <span>By clicking this, you agree to our <a href="/tandc">terms and condition.</a></span>
+                        </div>
+                        <button type="submit">Create Account</button>
                     </form>
                 </div>
                 
@@ -46,7 +54,7 @@
                 </div>
                 <div class="popular-books">
                     <h1>Popular on Ebook</h1>
-                    <p>Recommended for you to learn the basics of time management.</p>
+                    <p>Recommended for you to learn the basics of chemistry.</p>
                 </div>
                 <div class="book-info">
                     <div class="book-img">
@@ -56,11 +64,11 @@
                         <h2>Review by reader</h2>
                         <div class="reader one">
                             <h2>Ronald Richards &mdash; <i class="fa fa-star" style="color:gold" aria-hidden="true"></i> <i class="fa fa-star" style="color:gold" aria-hidden="true"></i> <i class="fa fa-star" style="color:gold" aria-hidden="true"></i> <i class="fa fa-star" style="color:gold" aria-hidden="true"></i> <i class="fa fa-star" style="color:gold"  aria-hidden="true"></i></h2>
-                            <p>This book is awesome. I was skeptical at first thinking - here's another book on time management. There couldn't be a book better than this.</p>
+                            <p>This book is awesome. I was skeptical at first thinking - here's another book on chemistry. There couldn't be a book better than this.</p>
                         </div>
                         <div class="reader two">
                             <h2>Jonathan Smith &mdash; <i class="fa fa-star" style="color:gold" aria-hidden="true"></i> <i class="fa fa-star" style="color:gold" aria-hidden="true"></i> <i class="fa fa-star" style="color:gold" aria-hidden="true"></i> <i class="fa fa-star" style="color:gold" aria-hidden="true"></i> <i class="fa fa-star" style="color:gold"  aria-hidden="true"></i></h2>
-                            <p>This book took my time management skills straight up the bar. I was marvelled and allured by what i got to learn in the first five pages and I am amazed.</p>
+                            <p>This book took my chemistry knowledge straight up the bar. I was marvelled and allured by what i got to learn in the first five pages and I am amazed.</p>
                         </div>
                     </div>
                 </div>
@@ -68,4 +76,4 @@
         </section>
     </header>
 </body>
-</html>
+</html> 

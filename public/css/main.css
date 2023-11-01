@@ -35,7 +35,7 @@
     
 
     /********** HEADER *********/
-    --header-bgcolor: #dd487e;
+    --header-bgcolor: #332856;
     --header-width: 100%;
     --header-height: 100vh;
     
@@ -156,7 +156,7 @@ nav{
 .nav-links{
     width: 0%;
     height: 50vh;
-    background-color: #dd487e;
+    background-color: #332856;
     z-index: 2;
     top: 0%;
     left: 0%;

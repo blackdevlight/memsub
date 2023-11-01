@@ -1,8 +1,11 @@
-const express = require('express');
-const pagesController = require('../controllers/pagesController');
-const router = express.Router();
+// const express = require('express');
+// const pagesController = require('../controllers/pagesController');
+// const loginController = require('../controllers/loginController');
+// const router = express.Router();
 
-router.get('/', pagesController.getHomepage);
-router.get('/login', pagesController.getLoginPage);
+// router.get('/', pagesController.getHomepage);
+// router.get('/login', pagesController.getLoginPage);
+// router.get('/dashboard', pagesController.getDashboard);
 
-module.exports = router;
+// router.post('/login', loginController.createUser);
+// module.exports = router;

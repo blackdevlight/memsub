@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Poppins-Black;
+    src: url('/fonts/Poppins-Black.ttf');
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('/fonts/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('/fonts/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('/fonts/Poppins-Regular.ttf');
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.form-container{
+    width: 45%;
+    min-height: 100vh;
+    
+}
+ .book-container{
+    width: 55%;
+    min-height: 100vh;
+}
+.book-container{
+    background: #332856;
+    background-position: center;
+    background-size: cover;
+}
+.login-btn, .text-info, .googleauth-div, .form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 0.3rem;
+}
+.or p{
+    color: #bbb;
+    font-family: Poppins-Regular;
+}
+.line{
+   border-color: #f2f2f2;
+   width: 25%;
+   margin: 0 0.5rem;
+}
+.login-btn{
+    margin: 2rem 0 1rem;
+}
+.login-btn p{
+    color: grey;
+    font-family: Poppins-Regular;
+    font-size: 0.875rem;
+}
+.login-btn a{
+    color: #2a516c;
+    font-family: Poppins-Medium;
+    text-decoration: none;
+}
+.text-info{
+    margin: 0 0 1.0rem;
+}
+.text-info h2{
+    color: #000000;
+    font-family: Poppins-Medium;
+    font-size: 2.0rem;
+    margin: 0.3rem 0;
+}
+.text-info p{
+    color: grey;
+    font-family: Poppins-Regular;
+    font-size: 0.840rem;
+}
+.googleauth-div a{
+    background: transparent;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    font-family: Poppins-Medium;
+    font-size: 0.875rem;
+    padding: 8px 28px;
+    text-decoration: none;
+}
+.googleauth-div a:hover{
+    border: 1px solid crimson;
+}
+.googleauth-div a img{
+    margin: 0 0.3rem;
+
+}
+.logo{
+    color: white;
+    font-family: Poppins-Bold;
+    
+    padding: 2% 6%;
+    text-align: right;
+}
+.popular-books{
+    padding: 2% 6%;
+}
+.popular-books h1{
+    color: #f2f2f2;
+    font-family: Poppins-Bold;
+    font-size: 2.0rem;
+    letter-spacing: 0.2rem;
+    margin: 0.4rem 0;
+}
+.popular-books p{
+    color: gainsboro;
+    font-size: 0.875rem;
+    font-family: Poppins-Regular;
+}
+.book-info{
+    display: flex;
+    margin: 2rem 0;
+}
+
+.book-img, .book-about{
+    display: flex;
+
+}
+.book-img{
+    flex-basis: 50%;
+}
+
+.book-img img{
+    width:100%;
+}
+.book-about{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    flex-basis: 40%;
+}
+.book-about h2{
+    font-size: 1.2rem;
+    color: white;
+    
+    font-family: Poppins-Medium;
+}
+
+.fa-star{
+    font-size: 0.875rem;
+}
+.reader{
+    margin:1rem 0;
+}
+.reader h2{
+    color: white;
+    font-size: 0.9rem;
+    font-family: Poppins-Medium;
+}
+.reader p{
+    color: #f2f2f2;
+    font-size: 0.875rem;
+    font-family: Poppins-Regular;
+}
+.form-section{
+    width: 100%;
+    
+}
+ .field{
+    margin:2rem 0;
+}
+
+label{
+    font-family: Poppins-Medium;
+    font-size: 0.875rem;
+     
+}
+::placeholder{
+    font-family: Poppins-Regular;
+    font-size: 0.800rem;
+}
+.tandc{
+    margin: 1rem 0 1rem 1rem;
+    font-size: 0.900rem;
+    font-family: Poppins-Regular;
+}
+.tandc a{
+    color:#332856;
+    text-decoration-color: #332856;
+}
+#bl{
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 8px;
+   
+    width: 100%;
+    padding: 13px 17px;
+} 
+.form-section button{
+    background-color: #332856;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: Poppins-Medium;
+    font-size: 0.850rem;
+    margin: 3rem 1rem;
+    width: 100%;
+    padding: 13px 17px;
+}
+
+@media (max-width:900px){
+
+.book-container{
+    display: none;
+}
+.container{
+ background-color: #332856;  
+ display: flex;
+ justify-content: center;
+ align-items: center;   
+}
+.form-container{
+    background-color: #f2f2f2;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+    width: 80%;
+}
+#bl{
+    background-color: #ddd;
+} 
+}
